@@ -39,7 +39,7 @@ https://docs.google.com/presentation/d/1SyP9CpOe9ELimd28vuUc91Wc7w_w-39qh9Y1_v69
 최종 발표영상
 https://www.youtube.com/watch?v=zwLfqAhej4U
 
-사용자 
+<<사용자>> 
 
 -----메인페이지------
 
@@ -95,7 +95,7 @@ RANDOM버튼 클릭 -> 랜덤으로 가게1개 추천
 
 
 
-관리자
+<<관리자>>
 
 -----회원관리------
 
