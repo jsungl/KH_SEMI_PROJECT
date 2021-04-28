@@ -1,0 +1,245 @@
+div#search-container {
+	margin: 0 auto;
+	padding: 20px 0 25px 310px;
+	background-color: rgb(250, 0, 80);
+	color: beige;
+	font-size: 20px;
+}
+
+div#search-memberId {
+	display: inline-block;
+}
+
+div#search-memberName {
+	display: none;
+}
+
+div#search-gender {
+	display: none;
+}
+
+#memberManage-container {
+	margin: 0%;
+	padding: 0%;
+	width: 100%;
+	height: 100%;
+}
+
+#tbl-memberList {
+	margin: 0 auto;
+	padding: 2%;
+}
+
+#searchType {
+	width: 10%;
+	height: 30px;
+}
+
+.management {
+	font-size: 35px;
+	margin: 0 auto;
+	padding: 0 0 0 260px;
+}
+
+.searchName {
+	height: 30px;
+}
+
+.search-Click {
+	opacity: 0.9;
+	transition: 0.3s;
+	height: 30px;
+	width: 60px;
+}
+
+.search-Click:hover {
+	opacity: 1;
+}
+
+.table_id {
+	border: 0px solid #bcbcbc;
+	width: 100%;
+	height: 45px;
+	text-align: center;
+	pointer-events: none;
+}
+
+.membership {
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	background-color: rgb(255, 255, 255)
+}
+
+.img_member {
+	margin: 20%;
+	width: 50px;
+	height: 50px;
+}
+
+.memberView-title {
+	margin: 0 auto;
+	font-size: 20px;
+}
+
+.content-wrapper {
+	margin: 0 auto;
+	width: 330px;
+}
+
+.button-class {
+	margin: 0 auto;
+	padding: 7px 0px 0 150px;
+}
+
+.naming {
+	height: 0px;
+	padding: 40px 0px 50px 0px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.table_id_up {
+	padding: 0 0 0 0;
+	margin: 0 auto;
+	width: 100px;
+	height: 35px;
+}
+
+.MUpdate {
+	padding: 28px 15px 15px 10px;
+	margin: 0 auto;
+}
+
+.table_add {
+	height: 100px;
+}
+
+#addressSub, #address, #postcode {
+	padding: 0 0 2px 0;
+	margin: 0 auto;
+}
+
+#pageBar {
+	text-align: center;
+	font-size: 15px;
+}
+
+.user_search {
+	list-style: none;
+	margin: 0 auto;
+	padding: 0 0 0 0;
+}
+
+/*memberUpdate*/
+#contentBox {
+	margin: 0 auto;
+	position: relative;
+	padding: 0px 0 110px 0;
+	display: table;
+}
+
+.updateMem {
+	font-family: sans-serif;
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.membUpdateId {
+	margin: 0 auto;
+	padding: 0 0px 0px 0px;
+	height: 50px;
+}
+
+.memPassword {
+	margin: 0 auto;
+	padding: 0 0px 0px 0px;
+	height: 50px;
+}
+
+.memName {
+	margin: 0 auto;
+	padding: 0 0px 0px 0px;
+	height: 50px;
+}
+
+.memBirth {
+	margin: 0 auto;
+	padding: 0 0px 0px 0px;
+	height: 50px;
+}
+
+.memGender {
+	margin: 0 auto;
+	padding: 0 0px 0px 0px;
+	height: 50px;
+}
+
+.memPhone {
+	margin: 0 auto;
+	padding: 0 0px 0px 0px;
+	height: 50px;
+}
+
+.loggo {
+	display: block;
+	margin: 35px auto;
+	width: 150px;
+	height: 50px;
+}
+
+#addressSub, #address, #postcode {
+	padding: 0 0 2px 0;
+	margin: 0 auto;
+}
+
+#pageBar {
+	text-align: center;
+	font-size: 15px;
+}
+
+#gender {
+	height: 30px;
+}
+
+#phone {
+	height: 30px;
+}
+
+#email {
+	height: 30px;
+}
+
+#birthday {
+	height: 30px;
+}
+
+#memberName {
+	height: 30px;
+}
+
+#password {
+	height: 30px;
+}
+
+#memberId {
+	height: 30px;
+}
+
+td.addr>input {
+	height: 30px;
+}
+
+
+.clickBtn {
+	opacity: 0.9;
+	transition: 0.3s;
+	height: 30px;
+	width: 60px;
+	margin: 0px 0px 0px 5%;
+}
+
+.clickBtnDiv {
+	margin: 0 0 0 5%;
+}
