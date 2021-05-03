@@ -1,8 +1,21 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    
-<%@ include file="/WEB-INF/views/common/header.jsp" %>
+<%@ page import="java.net.URLEncoder" %>
+<%@ page import="java.security.SecureRandom" %>
+<%@ page import="java.math.BigInteger" %>
 
+<%@ include file="/WEB-INF/views/common/header.jsp" %>
+<%
+    String clientId = "ICRNCSNcCKTC8uNgGtqe";//애플리케이션 클라이언트 아이디값";
+    String redirectURI = URLEncoder.encode("http://localhost:9090/yeogiyo/member/naverlogin", "UTF-8");
+    SecureRandom random = new SecureRandom();
+    String state = new BigInteger(130, random).toString();
+    String apiURL = "https://nid.naver.com/oauth2.0/authorize?response_type=code";
+    apiURL += "&client_id=" + clientId;
+    apiURL += "&redirect_uri=" + redirectURI;
+    apiURL += "&state=" + state;
+    session.setAttribute("state", state);
+ %>
 
 	<div class="content-wrap">
         <form id="loginFrm" action="<%= request.getContextPath() %>/member/memberlogin" method="POST" name="loginFrm">
@@ -28,6 +41,9 @@
                 <input type="submit" value="로그인" name="loginbtn" disabled="disabled">
             </div>
         </form>
+        <div style="width: 500px; margin: 0 auto;">
+        	<a href="<%=apiURL%>"><img height="50" src="http://static.nid.naver.com/oauth/small_g_in.PNG"/></a>
+        </div>
         <div class="join-container">
             <a href="<%= request.getContextPath() %>/member/memberEnroll">
                 <img src="<%= request.getContextPath() %>/images/sign_banner.png" alt="가입배너">
@@ -70,25 +86,6 @@ $("#password").keyup(function(){
 	
 
 
-//유효성검사
-/* $("#loginFrm").submit(function(){
-	var $memberId = $(memberId);
-	var $password = $(password);
-	
-	if(/^[a-zA-Z0-9]{4,12}$/.test($memberId.val()) == false){
-		alert("유효한 아이디를 입력하세요");
-		$memberId.select();
-		return false;
-	}
-	
-	if(/^[a-zA-Z0-9]{4,12}$/.test($password.val()) == false){
-		alert("유효한 비밀번호를 입력하세요");
-		$password.select();
-		return false;
-	}
-		
-	
-});  */
 
 
 </script>

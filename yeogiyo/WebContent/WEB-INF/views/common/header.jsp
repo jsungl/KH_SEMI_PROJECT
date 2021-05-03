@@ -10,6 +10,10 @@
 	
 	Member loginMember = (Member)session.getAttribute("loginMember");
 	
+	/* Member naverMember = (Member)session.getAttribute("naverMember");
+	if(naverMember != null && loginMember == null){
+		loginMember = naverMember;
+	} */
 	
 	String saveId = null;
 	Cookie[] cookies = request.getCookies();
@@ -57,6 +61,9 @@
 <% if(msg != null) { %>
 alert("<%= msg %>");
 <% } %>
+
+
+
 
 <% if(loginMember != null) { %>
 

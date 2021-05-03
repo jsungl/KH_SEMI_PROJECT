@@ -29,6 +29,7 @@ public class RestaurantListServlet extends HttpServlet {
 		
 		List<Restaurant> list = null;
 		
+		
 		//1. parameter
 		String category = null;	
 		category = request.getParameter("category");
@@ -39,13 +40,17 @@ public class RestaurantListServlet extends HttpServlet {
 			align = "all";
 		else
 			align = request.getParameter("alignSelect");
-
+		
+		
+		
 		String srchKeyword = request.getParameter("category_keyword");
 		String srchCategory = request.getParameter("search_category");
 		
+//		System.out.println("srchKeyword : " + srchKeyword);
+//		System.out.println("srchCategory : " + srchCategory);
+	
+		
 		if(srchKeyword != null) {
-//			System.out.println("srchKeyword : " + srchKeyword);
-//			System.out.println("srchCategory : " + srchCategory);
 //			category = srchCategory;
 			if(!srchCategory.equals("전체보기")) {
 				category = srchCategory;
