@@ -1,4 +1,4 @@
-# SEMI_PROJECT
+# 여기요(Yeogiyo)
 
 2021.04.01 첫 MEETING <br>
 팀선정후 첫 회의 <br>
