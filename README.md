@@ -29,7 +29,9 @@
 <br>
 https://github.com/ksh940911/KH_SEMI_PROJECT/commits/main
 
-**배포링크** : http://kym9129.ddns.net:10000/yeogiyo/
+**배포링크**
+<br>
+http://kym9129.ddns.net:10000/yeogiyo/
 
 **기획발표 ppt 링크(docs)**
 <br>
