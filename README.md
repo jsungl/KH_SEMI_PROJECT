@@ -1,5 +1,5 @@
 # 여기요(Yeogiyo)
-![여기요 로고](https://i.esdrop.com/d/m2k8l3fm5y4u/JRoKBAMcMN.jpg)
+![여기요 로고](https://i.esdrop.com/d/m2k8l3fm5y4u/PHIhn2yY4Y.jpg)
 
 2021.04.01 첫 MEETING <br>
 팀선정후 첫 회의 <br>
