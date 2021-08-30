@@ -5,9 +5,8 @@
 팀장선출 : 김상훈 <br>
 주제선정 : 음식배달 웹사이트 <br>
 진행방법 : 클론코딩 <br>
-<br>
-<br>
 참고사이트 : https://www.yogiyo.co.kr <br>
+
 **사이트 구현 기능**
 * 회원가입/회원탈퇴
 * 로그인/로그아웃
@@ -86,7 +85,7 @@ https://www.youtube.com/watch?v=zwLfqAhej4U
 
 ***
 
-### 관리자
+### 관리자 관점
 
 * 회원관리
 
