@@ -1,4 +1,5 @@
 # 여기요(Yeogiyo)
+![대체 텍스트](http://www.gstatic.com/webp/gallery/5.jpg "링크 설명(title)을 작성하세요.")
 
 2021.04.01 첫 MEETING <br>
 팀선정후 첫 회의 <br>
