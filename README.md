@@ -25,18 +25,22 @@
 6. 홈화면구성 및 프론트구현(회원가입) - 송민성
 
 
-깃허브 협업을 위한 레파지토리, 브런치(main, 팀원) 생성
+**깃허브 협업을 위한 레파지토리, 브런치(main, 팀원) 생성**
+<br>
 https://github.com/ksh940911/KH_SEMI_PROJECT/commits/main
 
-배포링크 : http://kym9129.ddns.net:10000/yeogiyo/
+**배포링크** : http://kym9129.ddns.net:10000/yeogiyo/
 
-기획발표 ppt 링크(docs)
+**기획발표 ppt 링크(docs)**
+<br>
 https://docs.google.com/presentation/d/1VZlXShFJVXbhDd2DAiqH-THgSKq_0X6Hb7UEvx__OL4/edit#slide=id.gcf4b52a444_8_21
 
-최종발표 ppt 링크(docs)
+**최종발표 ppt 링크(docs)**
+<br>
 https://docs.google.com/presentation/d/1SyP9CpOe9ELimd28vuUc91Wc7w_w-39qh9Y1_v69Fbc/edit
 
-최종 발표영상
+**최종 발표영상**
+<br>
 https://www.youtube.com/watch?v=zwLfqAhej4U
 
 ### 사용자 관점 
